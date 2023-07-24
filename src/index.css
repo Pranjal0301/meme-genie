@@ -137,6 +137,26 @@ main {
   justify-content: center;
 }
 @media only screen and (max-width: 900px) {
+  .btn-display{
+    display: flex;
+    justify-content: center;
+  }
+  .form {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
   .form--button {
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
@@ -149,4 +169,5 @@ main {
     border: none;
     cursor: pointer;
   }
+ 
 }
