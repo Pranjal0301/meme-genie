@@ -145,7 +145,7 @@ main {
     display: flex;
     margin-top: 24px;
     margin-bottom: 0px;
-    flex-direction: column-reverse;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
