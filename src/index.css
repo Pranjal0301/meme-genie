@@ -136,3 +136,17 @@ main {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 900px) {
+  .form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    margin:20px 15px;
+    width: 150px;
+    background: linear-gradient(90.41deg, #28282B 1.14%, #36454F 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
