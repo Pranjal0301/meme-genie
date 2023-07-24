@@ -1,13 +1,138 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px;
+}
+
+.header--image {
+  height: 100%;
+  height: 55px;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+  color: #28282B
+}
+
+.header--project {
+  margin-right: 30px;
+  color: #28282B;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  margin-top: 30px;
+  margin-bottom: -50px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.btn-display{
+  display: flex;
+  justify-content: center;
+}
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  margin:20px 15px;
+  width: 250px;
+  background: linear-gradient(90.41deg, #28282B 1.14%, #36454F 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+.red-btn{
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}
+.white-btn{
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}.blu-btn{
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}
+.color-btn{
+  display: flex;
+  justify-content: center;
 }
